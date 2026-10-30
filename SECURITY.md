@@ -6,7 +6,7 @@ other public channels.
 ## Reporting
 
 Use GitHub's private vulnerability reporting: the [docsy/docsy advisory
-form][advisory-form].
+form][advisory-form]. If you cannot use GitHub, email <chalin@cncf.io>.
 
 A maintainer will triage your report privately; valid issues will be fixed and,
 when warranted, disclosed through a GitHub security advisory, which credits you
