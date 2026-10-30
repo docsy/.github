@@ -18,16 +18,13 @@ For the supported release and tool versions, see [Official support][support].
 
 Vulnerabilities in:
 
-- the Docsy theme
-- the [docsy-example][] site
-- their CI and release workflows
+- Docsy theme
+- [docsy-example][] site
+- CI and release workflows of either repository
 
-## What not to report here
-
-- Issues in Hugo or other upstream dependencies: report them upstream
-- Issues in sites built with Docsy: report them to the site's owners
-- Behavior whose effects stay within a site owner's own content and
-  configuration: not a vulnerability
+Report issues in Hugo, other dependencies, or sites built with Docsy to their
+own maintainers. Behavior confined to a site owner's own content and
+configuration is not a vulnerability.
 
 <!-- prettier-ignore-start -->
 [docsy-example]: https://github.com/docsy/docsy-example
