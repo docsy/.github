@@ -14,16 +14,18 @@ through a GitHub security advisory, which credits you unless you ask otherwise.
 
 For the supported release and tool versions, see [Official support][support].
 
-## Scope
+## In scope
 
-In scope: the Docsy theme in every install form (the `@docsy/theme` npm package,
-the Hugo module, the git submodule), the [docsy-example][] site, and their CI
-and release workflows. The high-impact cases: markup or script injection through
-the theme's templates or bundled JavaScript, and the publish pipeline.
+- The Docsy theme
+- The [docsy-example][] site
+- Their CI and release workflows
 
-Out of scope: Hugo and other upstream dependencies (report them upstream), sites
-built with Docsy (report to the site's owners), and behavior whose effects stay
-within a site owner's own content and configuration.
+## Out of scope
+
+- Hugo and other upstream dependencies: report them upstream
+- Sites built with Docsy: report to the site's owners
+- Behavior whose effects stay within a site owner's own content and
+  configuration
 
 ## Verifying a release
 
