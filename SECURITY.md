@@ -22,12 +22,12 @@ Vulnerabilities in:
 - [docsy-example][] site
 - CI and release workflows of either repository
 
-Report issues in Hugo, other dependencies, or sites built with Docsy to their
-own maintainers. Behavior confined to a site owner's own content and
-configuration is not a vulnerability.
+Docsy inherits [Hugo's security model][hugo-security]. Report issues in Hugo,
+other dependencies, or sites built with Docsy to their own maintainers.
 
 <!-- prettier-ignore-start -->
 [docsy-example]: https://github.com/docsy/docsy-example
+[hugo-security]: https://gohugo.io/about/security/
 [report]: https://github.com/docsy/docsy/security/advisories/new
 [support]: https://www.docsy.dev/project/about/changelog/#official-support
 <!-- prettier-ignore-end -->
