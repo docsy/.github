@@ -9,8 +9,7 @@ other dependencies, or sites built with Docsy to their own maintainers.
 
 ## Reporting
 
-Use GitHub's [private vulnerability reporting][report]; if you cannot use
-GitHub, email <chalin@cncf.io>.
+Use GitHub's [private vulnerability reporting][report].
 
 A maintainer triages your report privately; valid issues are fixed and disclosed
 through a GitHub security advisory, which credits you unless you ask otherwise.
