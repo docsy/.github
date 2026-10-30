@@ -8,7 +8,7 @@ Do not report vulnerabilities in public issues, discussions, or pull requests.
   Docsy.
 - Confirm the issue is Docsy's own, not Hugo's, a dependency's, or a particular
   site's.
-- Reproduce the issue under [supported versions][support].
+- Confirm the issue affects a [supported release][support].
 
 ## Reporting
 
