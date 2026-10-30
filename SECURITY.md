@@ -14,29 +14,23 @@ through a GitHub security advisory, which credits you unless you ask otherwise.
 
 For the supported release and tool versions, see [Official support][support].
 
-## In scope
+## What to report
 
-- The Docsy theme
-- The [docsy-example][] site
-- Their CI and release workflows
+Vulnerabilities in:
 
-## Out of scope
+- the Docsy theme
+- the [docsy-example][] site
+- their CI and release workflows
 
-- Hugo and other upstream dependencies: report them upstream
-- Sites built with Docsy: report to the site's owners
+## What not to report here
+
+- Issues in Hugo or other upstream dependencies: report them upstream
+- Issues in sites built with Docsy: report them to the site's owners
 - Behavior whose effects stay within a site owner's own content and
-  configuration
-
-## Verifying a release
-
-`npm audit signatures` checks that a registry-installed `@docsy/theme` carries a
-valid signature and provenance attestation (stable releases since 0.17.0 are
-published from CI with provenance; for the pipeline, see [Publishing a
-release][publish]). Hugo module and git submodule installs carry no attestation.
+  configuration: not a vulnerability
 
 <!-- prettier-ignore-start -->
 [docsy-example]: https://github.com/docsy/docsy-example
-[publish]: https://www.docsy.dev/project/about/maintainer-notes/#publishing-a-release
 [report]: https://github.com/docsy/docsy/security/advisories/new
 [support]: https://www.docsy.dev/project/about/changelog/#official-support
 <!-- prettier-ignore-end -->
