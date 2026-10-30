@@ -4,7 +4,8 @@ Do not report vulnerabilities in public issues, discussions, or pull requests.
 
 ## Before you report
 
-- Read [Hugo's security model][hugo-security], which Docsy inherits.
+- Read [Hugo's security model][hugo-security]: its trust boundaries apply to
+  Docsy.
 - Confirm the issue is Docsy's own, not Hugo's, a dependency's, or a particular
   site's.
 - Reproduce the issue under [supported versions][support].
